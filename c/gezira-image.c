@@ -10,6 +10,9 @@ extern "C" {
 
 #define Real nile_Real_t
 
+
+nile_Process_t * nile_Identity (nile_Process_t *p, int quantum);
+
 static inline uint8_t
 Real_to_uint8_t (Real r)
 {

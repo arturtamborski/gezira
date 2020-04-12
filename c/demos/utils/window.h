@@ -2,6 +2,8 @@
 #define GEZIRA_WINDOW_H
 #include <stdint.h>
 
+nile_Process_t * nile_Identity (nile_Process_t *p, int quantum);
+
 typedef struct gezira_Window_ gezira_Window_t;
 
 typedef struct {

@@ -5,7 +5,7 @@
 #include "gezira.h"
 #include "gezira-image.h"
 //#include "test/nile-print.h"
-#include "gezira-matrix.h"
+#include "utils/matrix.h"
 #include "gezira-star-path.h"
 
 #define MEM_SIZE 1000000
